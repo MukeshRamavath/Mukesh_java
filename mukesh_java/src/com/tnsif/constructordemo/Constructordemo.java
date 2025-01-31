@@ -9,6 +9,21 @@ public class Constructordemo {
 	System.out.println("enter the customer name");
 	String name=sc.next();
 	
+	System.out.println("enter the customer id");
+	int id=sc.nextInt();
 	
-}
+	System.out.println("enter the customer address");
+    String adress=sc.next();
+    
+    Customer c=new Customer();
+    
+    c.setCustomername(name);
+    c.setCustomerid(id);
+    c.setCustomeradress(adress);
+    
+    System.out.println(c);
+    
+    boolean output=c instanceof Customer;
+    System.out.println(output);
+ }   
 }
