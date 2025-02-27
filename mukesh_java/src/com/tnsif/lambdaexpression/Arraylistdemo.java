@@ -2,7 +2,7 @@ package com.tnsif.lambdaexpression;
 
 import java.util.ArrayList;
 
-public class Arratlistdemo {
+public class Arraylistdemo {
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> a=new ArrayList<Integer>();
